@@ -4,19 +4,66 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
     <title>Document</title>
 </head>
 <body>
-    <div>
-        <h1>Here lie the header</h1>
-    </div>
-    <div>
-        <h1>...and here the main content</h1>
-    </div>
-    <div>
-        <h1>
-            ...and here the footer
-        </h1>
+    <div class="container">
+        <div class="navbar">
+            <div class="navbar-items">
+                <a class="navbar-logo" href="#intro"><strong>EDUARDO CHAVEZ</strong></a>
+                <ul class="navbar-directory">
+                    <li><a href="#about-me">About Me</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="intro" id="intro">
+            <p>
+                Hello, <br>I'm Eduardo Chavez
+                <br>
+                Software Engineer
+            </p>
+        </div>
+        <div class="about-me" id="about-me">
+            <div class="description">
+                <h2>About Me</h2>
+                <hr style="width:40px;">
+                <p>
+                    I'm Eduardo, a recent graduate with a Bachelor of Science in 
+                    Computer Science from the University of California,
+                    Santa Cruz.
+                    <br><br>
+                    During my undergraduate education, I worked on system design projects
+                    primarily using C, C++, and Java. I'm currently working on improving my
+                    front-end development skills using HTML, CSS, JavaScript, and React.
+                    <br><br>
+                    When I'm not working, I'm either hanging out with friends, family,
+                    skating at my local skatepark, or eating al pastor tacos at my favorite taco spots.
+                    <br><br>
+                    Based in Los Angeles, California and actively
+                    seeking Software Engineering roles.
+                    <br><br>
+                </p>
+            </div>
+            <div class="selfie">
+               <h2>image here</h2>
+            </div>
+        </div>
+        <div class="projects" id="projects">
+            <ul class="projects-list">
+                <li>Database Project</li>
+                <li>Calculator Project</li>
+                <li>File System Project</li>
+                <li>Other Project</li>
+            </ul>
+        </div>
+        <div class="footer">
+            <p>Eduardo Chavez Copyright 2020</p>
+        </div>
     </div>
 </body>
 </html>

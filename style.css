@@ -1,0 +1,109 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    scroll-behavior: smooth;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar {
+    background-color: white;
+    height: 66px;
+    width: 100%;
+    position: fixed;
+    
+}
+
+.navbar-items {
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+}
+
+.navbar-logo {
+    margin-top: 25px;
+    margin-left: 20px;
+    text-decoration: none;
+    color: #3d4146;
+}
+
+.navbar-logo:hover {
+    color: #188781;
+}
+
+.navbar-directory {
+    list-style: none;
+    display: flex;
+    margin-top: 25px;
+    margin-right: 20px;
+}
+
+.navbar-directory li a {
+    text-decoration: none;
+    color: #3d4146;
+    margin-left: 30px;
+
+}
+
+.navbar-directory li a:hover {
+    color: #188781;
+}
+
+.intro {
+    color: white;
+    background-color: #191b1d;;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.about-me {
+    display: flex;
+    height: 60vh;
+}
+
+.description {
+    width: 50vw;
+    padding-left: 100px;
+    padding-right: 20px;
+}
+
+.description h2 {
+    text-align: center;
+}
+.description p {
+    color: #3d4146;
+}
+.selfie {
+    width: 50vw;
+}
+/*
+.selfie img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+*/
+.intro p {
+    padding-left: 10vw;
+    padding-top: 30vh;
+    font-size: 40px;
+}
+
+.projects {
+    background-color: grey;
+    height: 100vh;
+}
+
+.projects-list {
+    list-style: none;
+}
+
+.footer {
+    background-color: orange;
+    text-align: center;
+}
