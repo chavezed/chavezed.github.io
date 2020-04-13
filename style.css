@@ -14,7 +14,8 @@ html, body {
     height: 66px;
     width: 100%;
     position: fixed;
-    
+    overflow: hidden;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
 }
 
 .navbar-items {
@@ -54,7 +55,7 @@ html, body {
 
 .intro {
     color: white;
-    background-color: #191b1d;;
+    background-color: #191b1d;
     height: 100vh;
     width: 100%;
     display: flex;
@@ -64,12 +65,12 @@ html, body {
 .about-me {
     display: flex;
     height: 60vh;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .description {
-    width: 50vw;
-    padding-left: 100px;
-    padding-right: 20px;
+    width: 50%;
 }
 
 .description h2 {
@@ -77,10 +78,20 @@ html, body {
 }
 .description p {
     color: #3d4146;
+    text-align: left;
+    font-size: 14px;
+    margin: 0 40px 0 40px;
 }
 .selfie {
-    width: 50vw;
+    width: 50%;
+    text-align: center;
 }
+
+/* remove later */
+.selfie p {
+    font-size: 100px;
+}
+
 /*
 .selfie img {
     max-width: 100%;
@@ -95,12 +106,24 @@ html, body {
 }
 
 .projects {
-    background-color: grey;
+    background-color:  #191b1d;
     height: 100vh;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    color: white;
+}
+
+.projects h1 {
+    text-align: center;
 }
 
 .projects-list {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    
     list-style: none;
+
 }
 
 .footer {
